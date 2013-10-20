@@ -1,0 +1,143 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Arvo', Georgia, Arial;
+	}
+
+/*Header for my site*/
+
+header	{
+	background-image:url(images/websiteheader.jpg); 
+	width:960px;
+	height:182px;
+	margin-left: auto;   
+	margin-right: auto; 
+	margin-bottom:30px;
+	}
+	
+/*Wrapper for my site*/
+
+#wrapper {
+	width:960px;
+	overflow:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	padding-bottom:30px;
+	padding-top:15px;
+	}
+
+/*Links*/
+
+a	{
+	color:#7d4b80; /*dark purple*/
+	text-decoration:none;
+	}
+
+a:hover	{
+	color:#fa96ff; /*light purple*/
+	text-decoration:none;
+	}
+
+article a:visited, a:focus	{
+	color:#7d4b80; /*dark purple*/
+	text-decoration:none;
+	}	
+
+/*Top Navigation */
+nav {
+	width:960px;
+	font-size:24px;
+	}
+
+nav a {
+	text-decoration:none;
+	display:inline-block;
+	}
+	
+nav a:hover {
+	text-decoration:none;
+	}
+
+.nav	{ /*CSS for this nav style taken from a tutorial at http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/*/
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    border-width:1px 0;
+    border:1px white;
+	}
+	
+.nav li	{
+    display:inline; /*to get all of the tabs in aline at the top*/
+    padding-right:30px;
+    padding-left:30px;
+	}
+	
+.nav a	{
+    display:inline-block; /*to get all of the boxes to be individual boxes*/
+    padding:10px;
+	}
+
+
+/*Page Content*/
+
+article {
+	margin:30px 30px 10px 30px;
+	}
+
+h1	{
+	font-size: 24px;
+	margin-bottom:5px;
+	margin-top:10px;
+	}
+
+h2	{
+	font-size: 18px;
+	margin-bottom:5px;
+	margin-top:10px;
+	color:#7d4b80; /*dark purple*/
+	}
+
+p	{
+	font-family:Gills Sans, Helvetica;
+	font-size:14px;
+	text-indent:20px;
+	margin:10px;
+	line-height:150%;
+	}
+
+section	{
+	margin-left:270px;
+	}
+
+#icons	{
+	margin-top:30px;
+	width:860px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	display:inline-block;
+	}
+	
+/*Photos*/
+img	{
+	margin:3px;
+	}
+
+img.center	{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	padding:10px;
+	}
+
+.left	{
+	float:left;
+	}
+
+
+
+footer	{
+	text-align:center;
+	}
