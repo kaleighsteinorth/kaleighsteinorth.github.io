@@ -141,3 +141,30 @@ img.center	{
 footer	{
 	text-align:center;
 	}
+	
+@media screen and (max-width: 600px){
+		
+	nav{
+	width: 35%;
+
+	}
+	
+	
+	h1, h2, p {text-align: center;
+	}
+	
+	
+	#content {
+	   clear: left;
+	   width: 90%;
+	   }
+
+
+	section{
+		clear:both;
+		margin-left:0;
+	}
+
+	#wrapper{
+		width:auto;
+	}
