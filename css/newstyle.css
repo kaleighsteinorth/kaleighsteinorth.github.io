@@ -1,0 +1,157 @@
+@font-face{font-family:nill; src:url(../font/Nilland-ExtraBold.ttf);}
+@font-face{font-family:nillthin; src:url(../font/Nilland.ttf);}
+
+* {
+	font-family: 'Arvo', Georgia, Arial;
+}
+
+html{
+	overflow: scroll;
+}
+
+body{
+	font-size: 10px;
+	background-image:url('../images/bg.png');
+	background-repeat: repeat-x;
+}
+
+/*Header for my site*/
+
+header{
+	/*background-color:#fde3ff; */
+	height:185px;
+	text-align:center;
+	position:relative;
+}
+
+#title{
+	position:absolute;
+	width:95%;
+	margin:auto;
+	top:22.5px;
+}
+
+/*Links*/
+
+a	{
+	color:#7d4b80; /*dark purple*/
+	text-decoration:none;
+	}
+
+a:hover	{
+	color:#fa96ff; /*light purple*/
+	text-decoration:none;
+	}
+
+article a:visited, a:focus	{
+	color:#7d4b80; /*dark purple*/
+	text-decoration:none;
+	}	
+
+/*Top Navigation */
+nav {
+	font-size:2.4em;
+	}
+
+nav a {
+	text-decoration:none;
+	display:inline-block;
+	}
+	
+nav a:hover {
+	text-decoration:none;
+	}
+
+.navi	{ 
+    text-align:center;
+    margin: 50px 0 15px 0 ;
+    font-family: nillthin, serif;
+    -webkit-text-stroke: 1px;
+}
+	
+.navi li	{
+    display:inline; /*to get all of the tabs in aline at the top*/
+    padding:0 4%;
+}
+	
+/*Page Content*/
+
+h1	{
+	font-family: nill, serif;
+	font-size: 8em;
+	margin-bottom:10px;
+	margin-top:10px;
+	color:#7d4b80;
+	}
+
+h2	{
+	font-size: 1.8em;
+	margin:5px 0;
+	color:#7d4b80; /*dark purple*/
+}
+
+h3{
+	font-family: nillthin, serif;
+	margin:5px 0 0 0;
+	-webkit-text-stroke: 0.6px;
+}
+
+h4{
+	font-family: nillthin, serif;
+	font-size:1.8em;
+	margin:25px 0 15px 0;
+	-webkit-text-stroke: 0.6px;
+	text-align: center;
+}
+
+h2 span{
+	font-size:.6em;
+	color:#888;
+}
+
+p	{
+	font-family: Gills Sans, Helvetica;
+	font-size:1.4em;
+	text-indent:20px;
+	margin:10px 0;
+	line-height:150%;
+	}
+
+#icons	{
+	margin: 0 auto 50px auto;
+	text-align:center;
+	display:inline-block;
+	width:100%;
+	}
+
+.resume{
+	text-align: center;
+}
+
+/*Photos*/
+img	{
+	padding:10px;
+	}
+
+img.center	{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	padding:10px;
+}
+
+#dempics{
+	margin-right:auto;
+	margin-left:auto;
+	width:900px;
+}
+
+.fleft{
+	float:left;
+}
+
+footer	{
+	text-align:center;
+	font-size:1.1em;
+	margin-top:20px;
+	}

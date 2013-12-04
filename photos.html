@@ -1,46 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><!--Begin Head -->
+<!doctype html>
+<html lang='en'>
+<head>
 	<meta charset="utf-8" />
 	<title>Kaleigh Steinorth</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/newstyle.css" />
 	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-	</head>
-<!--End Head -->
-<!--Begin Body -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+</head>
 <body>
-	<header> <!--Header is an image in css -->
-	</header>
-
-	<div id="wrapper">
-	<aside>
-	<nav role="navigation">	
-		<ul class="nav">
-			<li><a href="index.html">Welcome</a></li>
-			<li><a href="photos.html">Photography</a></li>
-				<li><a href="resume.html">Résumé</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	</aside>
-		
-	<article>
-		<h1> Photos I've Taken</h1>
-			<h2> Here are some examples of photos I've taken with a Canon Rebel T3i</h2>	
-			<img src="images/crow.jpg" class="center" width="600" height="400" alt="Yoga Crow Position" title="Yoga Crow Position"/>
-			<img src="images/Brian.jpg" class="center" width="400" height="600" alt="Brian" title="Brian"/>
-			<img src="images/4Rivers.jpg" class="center" width="600" height="400" alt="4Rivers" title="4Rivers"/>
-			<img src="images/coffee.jpg" class="center" width="600" height="400" alt="Coffee" title="Coffee"/>
-			<img src="images/turlington.jpg" class="center" width="600" height="400" alt="Turlington" title="Turlington"/>
-			
-		
-	</article>
-	
-	<footer>
-		<br>Website and Photos by <a href="mailto:kaleighsteinorth@gmail.com">Kaleigh Steinorth</a>
-	</footer>
-	
-	</div><!--closes wrapper -->
-
+	<div class='container'>
+		<div class='row'>
+			<header class='col-md-10 col-md-offset-1'>
+				<div id='title'>
+					<h1>Kaleigh Steinorth</h1>
+					<h2>yoga enthusiast, visual journalist and pizza connossieur</h2>
+				</div>
+			</header>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1'>
+				<nav role="navigation">	
+					<ul class="navi">
+						<li><a href="index.html">Welcome</a></li>
+						<li><a href="photos.html">Photography</a></li>
+						<li><a href="resume.html">Résumé</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1'>
+				<div class='resume'>
+					<h2>Photos I've Taken<br />
+						<span>All photos taken with a Canon Rebel T3i</span>
+					</h2>
+				</div>
+				<div id='dempics'>
+					<img src="images/crow.jpg" class='fleft' width="450" height="300" alt="Yoga Crow Position" title="Yoga Crow Position"/>
+					<img src="images/4Rivers.jpg" class='fleft' width="450" height="300" alt="4Rivers" title="4Rivers"/>
+					<img src="images/coffee.jpg" class='fleft' width="450" height="300" alt="Coffee" title="Coffee"/>
+					<img src="images/turlington.jpg" class='fleft' width="450" height="300" alt="Turlington" title="Turlington"/>
+					<img src="images/Brian.jpg" class='center' width="300" height="450" alt="Brian" title="Brian"/>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<footer class='col-md-10 col-md-offset-1'>
+				Website and Photos by <a href="mailto:kaleighsteinorth@gmail.com">Kaleigh Steinorth</a>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>

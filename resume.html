@@ -1,39 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><!--Begin Head -->
+<!doctype html>
+<html lang='en'>
+<head>
 	<meta charset="utf-8" />
 	<title>Kaleigh Steinorth</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/newstyle.css" />
 	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-	</head>
-<!--End Head -->
-<!--Begin Body -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+</head>
 <body>
-	<header> <!--Header is an image in css -->
-	</header>
-
-	<div id="wrapper">
-	<aside>
-	<nav role="navigation">	
-		<ul class="nav">
-			<li><a href="index.html">Welcome</a></li>
-			<li><a href="photos.html">Photography</a></li>
-				<li><a href="resume.html">Résumé</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	</aside>
-		
-	<article>
-	<h1> Kaleigh Steinorth's Resume</h1>
-		<p> You can view my resume <em><a href="KaleighSteinorthResume.pdf" target"_blank"> here.</a></em> It details my professional experience, education and special skills. 
-	</article>
-	
-	<footer>
-		<br>Website and Photos by <a href="mailto:kaleighsteinorth@gmail.com">Kaleigh Steinorth</a>
-	</footer>
-	
-	</div><!--closes wrapper -->
-
+	<div class='container'>
+		<div class='row'>
+			<header class='col-md-10 col-md-offset-1'>
+				<div id='title'>
+					<h1>Kaleigh Steinorth</h1>
+					<h2>yoga enthusiast, visual journalist and pizza connossieur</h2>
+				</div>
+			</header>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1'>
+				<nav role="navigation">	
+					<ul class="navi">
+						<li><a href="index.html">Welcome</a></li>
+						<li><a href="photos.html">Photography</a></li>
+						<li><a href="resume.html">Résumé</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1'>
+				<div class='resume'>
+					<h2>Resume</h2><br />
+					<embed src="KaleighSteinorthResume.pdf" width="100%" height="375px"></embed> 
+					<p><a href="KaleighSteinorthResume.pdf" target"_blank" download='KaleighSteinorthResume.pdf'>Download my resume</a></p>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<footer class='col-md-10 col-md-offset-1'>
+				Website and Photos by <a href="mailto:kaleighsteinorth@gmail.com">Kaleigh Steinorth</a>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>
